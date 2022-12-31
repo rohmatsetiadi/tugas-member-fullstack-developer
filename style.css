@@ -1,0 +1,114 @@
+*,
+html,
+body {
+    margin : 0;
+    padding: 0;
+    box-sizing: none;
+}
+.container {
+    width:auto;
+    height : 100vh;
+    background-color: rgb(137, 171, 201);
+}
+.primary {
+    width : 1440px;
+    height : 74px;
+    background-color : white;
+    border : 1px solid #2e2e2e;
+}
+.position {
+    display : flex;
+    justify-content: center;
+    align-items: center;
+} 
+.main {
+    padding: 10px;
+}
+.judul {
+    padding : 10px;
+    text-align: center;
+}
+.eclipse7 {
+    position :absolute;
+    width : 50px;
+    height : 50px;
+    left : 35px;
+    top : 14px;
+    background-color: #d9d9d9;
+    border-radius: 100%;
+}
+.rectangle73 {
+position : absolute;
+width : 100px;
+height :32px;
+left : 814px;
+top : 21px;
+background-color: #d9d9d9;
+}
+.rectangle74 {
+    position : absolute;
+    width : 100px;
+    height : 32px;
+    left : 932px;
+    top : 21px;
+    background-color : #d9d9d9;
+}
+.rectangle75 {
+    position : absolute;
+    width : 100px;
+    height : 32px;
+    left : 1050px;
+    top : 21px;
+    background-color : #d9d9d9;
+}
+.rectangle76 {
+    position : absolute;
+    width : 100px;
+    height : 32px;
+    left : 1168px;
+    top : 21px;
+    background-color : #d9d9d9;
+}
+.rectangle77 {
+    position : absolute;
+    width : 34px;
+    height : 6px;
+    left : 1381px;
+    top : 24px;
+    background-color : #d9d9d9;
+}
+.rectangle78 {
+    position : absolute;
+    width : 34px;
+    height : 6px;
+    left : 1381px;
+    top : 34px;
+    background-color : #d9d9d9;
+}
+.rectangle79 {
+    position : absolute;
+    width : 34px;
+    height : 6px;
+    left : 1381px;
+    top : 44px;
+    background-color : #d9d9d9;
+}
+.main {
+padding : 10px;
+    font-size: 2em;
+}
+.gambar{
+    background-color: #d9d9d9;
+display: flex;
+justify-content: center;
+}
+.image {
+  margin : 20px;
+   border : 1px solid black;
+
+}
+.teks{
+    text-align: center;
+    background-color: white;
+    font-family: 'Permanent Marker', cursive;
+}
