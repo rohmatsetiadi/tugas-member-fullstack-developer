@@ -3,7 +3,7 @@ html,
 body {
     margin : 0;
     padding: 0;
-    box-sizing: none;
+    box-sizing: border-box;
 }
 .container {
     width:auto;
@@ -28,6 +28,7 @@ body {
     padding : 10px;
     text-align: center;
 }
+
 .eclipse7 {
     position :absolute;
     width : 50px;
@@ -111,4 +112,49 @@ justify-content: center;
     text-align: center;
     background-color: white;
     font-family: 'Permanent Marker', cursive;
+}
+.link {
+    text-decoration: none;
+}
+.img { 
+    margin : 20px;
+    padding : 50px;
+}
+.mode {
+    margin : 20px;
+    padding : 20px;
+    background-color: #fcfcfc;
+    transition: .5s;
+}
+.saklar {
+    position: relative;
+    width : 40px;
+    height : 20px;
+    appearance: none;
+    background-color: #434343;
+    outline: none;
+    border-radius: 10px;
+    transition: .5s ease;
+    cursor: pointer;
+}
+.saklar:checked {
+    background-color: #3664ff;
+}
+.saklar::before {
+   content: '';
+   position: absolute;
+   width : 16px;
+   height : 16px;
+   background-color: #fcfcfc;
+   border-radius: 50%;
+   top : 2px;
+   left : 2px;
+   transition : .5s ease;
+}
+.saklar:checked::before {
+ transform: translateX(20px);
+}
+.dark {
+    background-color: #333333;
+    color : #fcfcfc;
 }
